@@ -75,7 +75,7 @@
     --bg-color-one: #F3FAF2;
     --bg-color-two: #FFFBF4;
     --bg-color-three: #F1F1F1;
-    --neutral: #0a0a0a;
+    --neutral: #B3B3B3;
     --translate-x-middle: translateX(-50%);
     --translate-y-middle: translateY(-50%);
     --size-2: 0.125rem;
@@ -9260,13 +9260,14 @@ input:focus-visible {
 }
 
 .banner-item-two-wrapper {
-    margin: 32px;
-    margin-inline-end: 0;
-}
+    margin: 50px;
+    /* margin-inline-end: 0; */
+} 
 
 @media screen and (max-width: 991px) {
     .banner-item-two-wrapper {
         margin-inline-start: 0;
+        margin: 30px;
     }
 }
 
